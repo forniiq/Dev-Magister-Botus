@@ -32,4 +32,4 @@ process.on("unhandledRejection", (reason, promise) => {
 
 // process.env.tokenMain - Основная версия бота
 // process.env.tokenDev - Версия бота для разработчиков
-client.login(process.env.tokenDev);
+client.login(tokenMain);
