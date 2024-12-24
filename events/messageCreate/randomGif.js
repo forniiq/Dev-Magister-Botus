@@ -8,7 +8,7 @@ module.exports = async (message) => {
   if (!channels.includes(message.channel.id)) return; // Если сообщение не из разрешённого канала, игнорируем
 
   const chance = Math.floor(Math.random() * 100) + 1; // Случайное число от 1 до 100
-  if (chance <= 10) {
+  if (chance <= 5) {
     try {
       const url =
         "https://api.giphy.com/v1/gifs/random?api_key=1VW1fvXNzoKoR3g1p7695fZuaVME73gG"; // URL для получения случайного GIF
