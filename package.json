@@ -1,0 +1,23 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/translate": "^8.5.0",
+    "@google/generative-ai": "^0.21.0",
+    "@types/node": "^18.0.6",
+    "axios": "^1.7.9",
+    "discord.js": "^14.16.3",
+    "djs-commander": "^0.0.50",
+    "dotenv": "^16.4.7",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7"
+  }
+}
